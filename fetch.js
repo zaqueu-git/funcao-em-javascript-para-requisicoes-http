@@ -9,7 +9,7 @@ function myPage() {
       headers: myHeaders,
     };
     
-    fetch("http://localhost/mvc/entidade/spa", requestOptions)
+    fetch("URL", requestOptions)
     .then(response => {
         response.json().then(data => {
             myResponseJson(data)
